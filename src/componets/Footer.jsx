@@ -13,16 +13,16 @@ function Footer() {
                 <p>Stay in touch!</p>
                 <div className="flex justify-center gap-4">
                     <a href="mailto:tristancollier777@gmail.com">
-                    <FontAwesomeIcon icon={faEnvelope} transform='shrink-6' size="md" mask={faCircle}  className="hover:text-primary-light hover-bounce cursor-pointer"/>
+                    <FontAwesomeIcon icon={faEnvelope} transform='shrink-6'  mask={faCircle}  className="hover:text-primary-light hover-bounce cursor-pointer"/>
                     </a>
                     <a href="tel:5402206532">
-                    <FontAwesomeIcon icon={faPhone} transform='shrink-6' size="md" mask={faCircle} className="hover:text-primary-light hover-bounce cursor-pointer"/>
+                    <FontAwesomeIcon icon={faPhone} transform='shrink-6'  mask={faCircle} className="hover:text-primary-light hover-bounce cursor-pointer"/>
                     </a>
                     <a href="https://github.com/CollierTR">
-                    <FontAwesomeIcon icon={faGithub} size="md" className="hover:text-primary-light hover-bounce cursor-pointer"/>
+                    <FontAwesomeIcon icon={faGithub}  className="hover:text-primary-light hover-bounce cursor-pointer"/>
                     </a>
                     <a href="https://www.linkedin.com/in/tristan-collier-263b67263/">
-                    <FontAwesomeIcon icon={faLinkedin} size="md" className="hover:text-primary-light hover-bounce cursor-pointer"/>
+                    <FontAwesomeIcon icon={faLinkedin}  className="hover:text-primary-light hover-bounce cursor-pointer"/>
                     </a>
                 </div>
             </div>
