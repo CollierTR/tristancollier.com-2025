@@ -30,7 +30,7 @@ function HexBackgroundContainer({children, width="w-full", height="min-h-screen"
 
         {textureOverlay && 
         <div id="texture" 
-            className='w-full h-full absolute z-30 top-0 left-0 m-0 p-0'
+            className='w-full h-full absolute z-30 top-0 left-0 m-0 p-0 hidden sm:block'
             style={{backgroundImage: 'url('+ texture +')', backgroundSize: '20px'}}
         ></div>
         }

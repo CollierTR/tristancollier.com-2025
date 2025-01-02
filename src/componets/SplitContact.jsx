@@ -16,15 +16,15 @@ const SplitContact = () => {
         </p>
         <div className="flex gap-6">
           <a href="tel:5402206532">
-            <button className="bg-black border-2 text-white border-primary py-4 px-10 text-2xl rounded-2xl">Call</button>
+            <button className="bg-black border-2 shadow-2xl text-white border-primary hover:border-primary-light py-4 px-10 text-2xl rounded-2xl">Call</button>
           </a>
           <a href="mailto:tristancollier777@gmail.com">
-            <button className="bg-black border-2 text-white border-primary py-4 px-10 text-2xl rounded-2xl">Email</button>
+            <button className="bg-black border-2 shadow-2xl text-white border-primary hover:border-primary-light py-4 px-10 text-2xl rounded-2xl">Email</button>
           </a>
         </div>
       </div>
 
-      <div className="lg:w-5/12 w-10/12 sm:w-9/12">
+      <div className="lg:w-5/12 w-full  sm:w-9/12">
         <form
           className="flex flex-col gap-4 md:gap-6 place-items-center"
           name="Contact Form"
@@ -86,7 +86,7 @@ const SplitContact = () => {
           </span>
           <button
             type="submit"
-            className=" border border-light-primary text-primary-light bg-black rounded-lg w-10/12 md:w-3/4 md:text-2xl robo py-2 md:py-3"
+            className=" border-2 border-primary hover:border-primary-light text-white  bg-black rounded-lg w-10/12 md:w-3/4 md:text-2xl robo py-2 md:py-3"
           >
             Submit
           </button>

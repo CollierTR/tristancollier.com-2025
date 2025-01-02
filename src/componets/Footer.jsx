@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function Footer() {
   return (
-    <div className="py-8 flex flex-col justify-center gap-5 place-items-center border-t-2 border-t-primary text-white bg-black">
+    <div className="py-8 flex flex-col justify-center gap-8  place-items-center border-t-2 border-t-primary text-white bg-black">
 
         <div className="flex w-4/5 px-6 text-4xl  justify-center place-items-center">
-            <div className="flex justify-between w-full">
-                <p>Stay in touch!</p>
+            <div className="flex flex-col md:flex-row  gap-6 justify-between w-full">
+                <p className="lg:text-start text-center">Stay in touch!</p>
                 <div className="flex justify-center gap-4">
                     <a href="mailto:tristancollier777@gmail.com">
                     <FontAwesomeIcon icon={faEnvelope} transform='shrink-6'  mask={faCircle}  className="hover:text-primary-light hover-bounce cursor-pointer"/>
@@ -29,8 +29,8 @@ function Footer() {
         </div>
 
 
-        <div className="flex text-lg justify-between place-items-center border-t-2 w-4/5 p-6 border-t-primary pt-6">
-            <div className="flex justify-center gap-4">
+        <div className="flex text-lg justify-between flex-col md:flex-row gap-4  place-items-center border-t-2 w-4/5 p-6 border-t-primary pt-6">
+            <div className="flex justify-center gap-4 text-2xl text-primary lg:text-white">
                 <Link to={'/'}>
                 <p className="hover:text-primary-light">Home</p>
                 </Link>

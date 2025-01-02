@@ -11,12 +11,11 @@ const Nav = () => {
   function toggleNav() {
     setAnimation(!animation)
     navOpen == true ? setTimeout(() => setNavOpen(!navOpen), 1000) : setNavOpen(!navOpen)
-
   }
 
   return (
-    <div className=" h-fit text-white flex justify-end place-items-center blackOutline text-3xl m-4 absolute top-0 right-6 z-[200] shadow-xl">
-      <div className={`flex ${ animation ? 'px-7 navOpen' : 'px-5 navClose'} py-1 justify-center place-items-center gap-8 h-fit w-fit rounded-full bg-black`} onClick={toggleNav}>
+    <div className=" h-fit text-white flex justify-end place-items-center blackOutline text-3xl m-4 absolute top-0 right-0 sm:right-6 z-[200] shadow-xl">
+      <div className={`flex ${ animation ? 'px-7 navOpen' : 'px-5 navClose'} py-1 justify-center flex-col-reverse rounded-xl sm:rounded-full pb-8 sm:pb-0 sm:flex-row place-items-end sm:place-items-center gap-8 h-fit w-fit  bg-black`} onClick={toggleNav}>
         {navOpen && (
           <Link to={"/"}>
             <p className="py-2 rounded-full  cursor-pointer">

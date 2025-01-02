@@ -61,7 +61,7 @@ svg {
 
 @keyframes navOpen {
   from {
-    width: 25px;
+    width: 65px;
     color: transparent;
     background-color: transparent;
     border: 2px solid transparent
@@ -88,7 +88,7 @@ svg {
     border: 2px solid green
   }
   to {
-    width: 25px;
+    width: 65px;
     color: transparent;
     background-color: transparent;
     border: 2px solid transparent
