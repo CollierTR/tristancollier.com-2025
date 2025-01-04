@@ -37,7 +37,7 @@ const ProjectCard = ({img='https://placehold.co/600x400', title='Awsome Project'
             </div>
             <div className="w-full border rounded-full border-primary-light mx-auto"></div>
             <p className="m-4 mb-2 font-light text-lg">Technologies Used:</p>
-            <div className="flex gap-4 mx-4 text-primary-light">
+            <div className="flex flex-wrap gap-4 mx-4 text-primary-light text-nowrap">
                 {
                     technologiesArr.map((item) => (
                         <p key={item}>{item}</p>

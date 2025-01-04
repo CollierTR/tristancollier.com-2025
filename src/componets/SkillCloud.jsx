@@ -76,8 +76,8 @@ function SkillCloud() {
     const [playMarquee, togglePlayMarquee] = useState(true)
 
   return (
-    <div className="flex flex-col place-items-center gap-12 py-8 text-white bg-black h-80 border-y-2 border-primary-light">
-        <p className="text-4xl">My Tool Kit</p>
+    <div className="flex flex-col place-items-center gap-2 lg:gap-12 py-8 text-white bg-black lg:h-80 border-y-2 border-primary-light">
+        <p className="text-2xl lg:text-4xl">My Tool Kit</p>
         <div className=" h-32 w-full flex place-items-center overflow-visible">
             <Marquee autoFill={true} speed={30} play={playMarquee} className=" overflow-hidden h-48 relative">
                 {marqueeArr.map((item, index) => (
