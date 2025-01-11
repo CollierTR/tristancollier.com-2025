@@ -38,7 +38,7 @@ const projects = [
         name: 'MO Schools',
         img: '/moSchools.png',
         tech: ['SquareSpace', 'HTML', 'CSS', 'Square'],
-        description: "I took over the management of this site for a local business owner. Through the management of this site, I've had the oppertunity to learn many integrations that are common the E-commerce platforms. I not only redesigned the UI and feel of the site, But I also integrated it with an Ecommerce platform and billing system.",
+        description: "I took over the management of this site for a local business owner andf friend. Through the management of this site, I've had the oppertunity to learn many integrations that are common the E-commerce platforms. I not only redesigned the UI and feel of the site, But I also integrated it with an Ecommerce platform and billing system.",
         websiteLink: 'https://www.mo-schools.com/',
     },
     {
