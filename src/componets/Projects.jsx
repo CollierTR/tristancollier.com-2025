@@ -56,6 +56,13 @@ const projects = [
         description: `I'm a big fan of "Cyber Punk" and "Hacker" color scemes. I had a hard time finding a VSCode theme that had that feel but also had good syntax highlighting, so I decided to make my own!`,
         githubLink: 'https://github.com/CollierTR/BlackHat-VSCode-Theme',
     },
+    {
+        name: 'Todoist Colorizer',
+        img: '/peacock.png',
+        tech: ['Browser Extension Development', 'JavaScript', 'css'],
+        description: `I wanted a way to colorize the background of Todoist's Agenda view. That way I could quickly get a glance of the "time period" of my day like "Sleep", "work", "Family Time" etc. Todoist does not have this feature yet, so I made a chrome extension that injects css into the page and sets the colors to my schedule.`,
+        githubLink: 'https://github.com/CollierTR/Todoist-Chrome-Extension',
+    },
 ]
 
 
