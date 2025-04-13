@@ -15,9 +15,9 @@ function Hero() {
             sequence={[
                 'A Website?',
                 4000,
-                'An App?',
-                4000,
                 'Custom Software?',
+                4000,
+                'Data Analyitics?',
                 4000,
                 'System Automation?',
                 4000
