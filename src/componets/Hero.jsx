@@ -26,7 +26,7 @@ function Hero() {
             speed={20}
         />
         <p className="text-2xl sm:text-4xl blackOutline w-11/12">
-            I can help you take your business to <br className="hidden md:block"/> the <span className="text-primary">next level!</span>
+            Take your business to <br className="hidden md:block"/> the <span className="text-primary">next level!</span>
         </p>
         <Link to={'/contact'} className="w-3/5 md:w-1/4">
         <button className=" bg-black rounded-xl text-nowrap text-xl lg:text-2xl border-2 border-primary-light w-full py-2 px-4 transform transition-transform duration-500 hover:scale-110">
