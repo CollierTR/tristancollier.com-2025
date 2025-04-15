@@ -17,7 +17,7 @@ function Hero() {
                 4000,
                 'Custom Software?',
                 4000,
-                'Data Analyitics?',
+                'Data Analytics?',
                 4000,
                 'System Automation?',
                 4000

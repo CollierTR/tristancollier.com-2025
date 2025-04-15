@@ -7,7 +7,7 @@ function AboutMe() {
     <div className="flex flex-col-reverse md:flex-row w-10/12 justify-center place-items-center mx-auto h-screen gap-12 md:gap-16 my-20 sm:my-44 md:my-0">
         <div className="w-full md:w-1/2 flex place-items-center md:place-items-start text-center md:text-start flex-col gap-5">
             <h1 className="text-primary-light text-5xl blackOutline">About me...</h1>
-            <p className="text-white text-2xl blackOutline text-pretty w-11/12">My name&lsquo;s Tristan. I&lsquo;m a self taught web developer. I enjoy creating user friendly applications and using the power of code to solve problems. If you&lsquo;re looking for a custom application or would just like to conect, please don&lsquo;t hesitate to reach out!</p>
+            <p className="text-white text-2xl blackOutline text-pretty w-11/12">My name&lsquo;s Tristan. I&lsquo;m a self taught web developer. I enjoy creating user friendly applications and using the power of code to solve problems. If you&lsquo;re looking for a custom application or would just like to connect, please don&lsquo;t hesitate to reach out!</p>
             <Link to={'/contact'}>
             <button className='border border-primary-light text-2xl text-white py-2 px-8 text-pretty mt-2 w-fit rounded-xl bg-black'>Contact Me</button>
             </Link>
