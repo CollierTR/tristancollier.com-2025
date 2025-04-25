@@ -99,3 +99,7 @@ svg {
   animation: navClose 1s ease-out forwards;
   overflow: hidden;
 }
+
+.recursive-border * {
+  border: 1px solid red;
+}

@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import NotFound from "./Pages/NotFound"
 import Main from "./Pages/Main"
 import Contact from "./Pages/Contact"
+import LearnToCodePage from "./Pages/LearnToCodePage"
 import GridBackgroundContainer from "./componets/HexGridContainer/HexBackgroundContainer"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="/learn-to-code" element={<LearnToCodePage />}/>
           <Route path="*" element={<NotFound/>}/>
         </Routes>
 
