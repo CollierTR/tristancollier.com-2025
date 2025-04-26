@@ -16,9 +16,7 @@ export default function StudentSignup() {
 						coaching, fill out this contact form so we can get
 						started!
 					</p>
-                    <p className="text-4xl">
-                        $199 monthly
-                    </p>
+					<p className="text-4xl">$199 monthly</p>
 				</div>
 
 				<div className="lg:w-5/12 w-full  sm:w-9/12">
@@ -26,12 +24,12 @@ export default function StudentSignup() {
 						className="flex flex-col gap-4 md:gap-6 place-items-center"
 						name="Contact Form"
 						method="post"
-						action="/student-signup"
+						action="/contact"
 					>
 						<input
 							type="hidden"
 							name="form-name"
-							value="Coaching Form"
+							value="Contact Form"
 						/>
 						<span className="flex gap-2 flex-col md:w-3/4 w-10/12">
 							<input
