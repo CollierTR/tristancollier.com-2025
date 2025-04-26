@@ -58,6 +58,7 @@ const SplitContact = () => {
               required
               id="lastName"
             />
+			<input type="hidden" name="isStudentForm" value="Not Student Form" />
           </span>
           <span className="flex gap-2 flex-col w-10/12 md:w-3/4">
             <label htmlFor="email" className="text-base md:text-xl text-white">
