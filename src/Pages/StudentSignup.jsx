@@ -31,6 +31,11 @@ export default function StudentSignup() {
 							name="form-name"
 							value="Contact Form"
 						/>
+						<input
+							type="hidden"
+							name="isStudentForm"
+							value="Student Form"
+						/>
 						<span className="flex gap-2 flex-col md:w-3/4 w-10/12">
 							<input
 								type="hidden"
