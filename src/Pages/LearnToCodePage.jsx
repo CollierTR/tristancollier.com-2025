@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Nav from "../componets/Nav";
 import Footer from "../componets/Footer";
 
@@ -20,9 +21,11 @@ export default function LearnToCodePage() {
 							to turn your ideas into reality one line of code at
 							a time.
 						</p>
-						<button className=" bg-black my-6 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-8 transform transition-transform duration-500 hover:scale-105">
-							Let’s Get Started!
-						</button>
+						<Link to={"/student-signup"}>
+							<button className=" bg-black my-6 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-8 transform transition-transform duration-500 hover:scale-105">
+								Let’s Get Started!
+							</button>
+						</Link>
 					</div>
 					<img
 						className="w-2/5 2xl:w-1/3  transform scale-x-[-1]"
@@ -32,7 +35,7 @@ export default function LearnToCodePage() {
 				</div>
 				<div className="flex flex-col gap-4 text-center w-3/4 my-20  justify-center place-items-center mx-auto">
 					<h2 className="text-primary-light text-center my-6 text-3xl sm:text-6xl blackOutline">
-						Become a fabled 10x developer!
+						Become a 10x developer!
 					</h2>
 					<p className="2xl:w-4/5 text-pretty blackOutline">
 						Have you ever wondered what it takes to be a 10x
@@ -48,9 +51,11 @@ export default function LearnToCodePage() {
 						focus, and strategy. Let’s get started on your journey
 						to becoming a legend in the tech world.
 					</p>
-					<button className=" bg-black my-6 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-8 transform transition-transform duration-500 hover:scale-105">
-						Unlock the 10x Path!
-					</button>
+					<Link to={"/student-signup"}>
+						<button className=" bg-black my-6 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-8 transform transition-transform duration-500 hover:scale-105">
+							Unlock the 10x Path!
+						</button>
+					</Link>
 				</div>
 				<img
 					className="w-2/5 2xl:w-1/2  transform scale-x-[-1] "
@@ -58,7 +63,7 @@ export default function LearnToCodePage() {
 					alt=""
 				/>
 				<div className="flex flex-row-reverse min:h-screen justify-center place-items-start 2xl:gap-0 ">
-					<div className="flex flex-col gap-2 justify-center place-items-center text-pretty w-4/5">
+					<div className="flex flex-col gap-2 justify-center place-items-center text-pretty">
 						<h1 className="text-primary-light my-6 text-4xl sm:text-7xl blackOutline">
 							Learn to Code!
 						</h1>
@@ -68,12 +73,13 @@ export default function LearnToCodePage() {
 							tools and skills that make you stand out. Here’s
 							what you’ll master:
 						</p>
-						<ul className="flex flex-wrap justify-center  place-items-start  blackOutline mb-6">
-							<li className="w-1/2 mb-4 flex flex-col justify-center place-items-center">
-								<strong className="text-primary">
+
+						<ul className="grid grid-cols-2 gap-6 text-start  justify-evenly w-full place-items-start  blackOutline mb-6">
+							<li className="flex flex-col justify-center w-full place-items-center text-center">
+								<strong className="text-primary text-4xl mt-8">
 									Frontend Development:
 								</strong>
-								<ul className="list-disc list-outside list">
+								<ul className="flex flex-col gap-2 mt-2 text-3xl">
 									<li>Html</li>
 									<li>CSS</li>
 									<li>Tailwind</li>
@@ -81,40 +87,45 @@ export default function LearnToCodePage() {
 									<li>Next</li>
 								</ul>
 							</li>
-							<li className="w-1/2 flex mb-4 flex-col justify-center place-items-center">
-								<strong className="text-primary">
+
+							<li className="flex flex-col justify-center w-full place-items-center text-center">
+								<strong className="text-primary text-4xl mt-8">
 									Backend Development:
 								</strong>
-								<ul className="list-disc list-outside list">
+								<ul className="flex flex-col gap-2 mt-2 text-3xl">
 									<li>Python</li>
 									<li>JavaScript (Node.js)</li>
 									<li>Express</li>
-									<li>API Integration</li>
-									<li>Serverless Solutions</li>
+									<li>APIs</li>
 								</ul>
 							</li>
-							<li className="w-1/2 flex flex-col justify-center place-items-center">
-								<strong className="text-primary">
+
+							<li className="flex flex-col justify-center w-full place-items-center text-center">
+								<strong className="text-primary text-4xl mt-8">
 									Version Control:
 								</strong>
-								<ul className="list-disc list-outside list">
+								<ul className="flex flex-col gap-2 mt-2 text-3xl">
 									<li>Git</li>
 									<li>Github</li>
 								</ul>
 							</li>
-							<li className="w-1/2 flex flex-col justify-center place-items-center">
-								<strong className="text-primary">
+
+							<li className="flex flex-col justify-center w-full place-items-center text-center">
+								<strong className="text-primary text-4xl mt-8">
 									Database Essentials:
 								</strong>
-								<ul className="list-disc list-outside list">
+								<ul className="flex flex-col gap-2 mt-2 text-3xl">
 									<li>SQL</li>
 									<li>Mongo DB</li>
 								</ul>
 							</li>
 						</ul>
-					<button className=" bg-black my-6 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-8 transform transition-transform duration-500 hover:scale-105">
-                        Let’s do this!
-					</button>
+
+						<Link to={"/student-signup"}>
+							<button className=" bg-black my-12 rounded-xl text-nowrap text-xl lg:text-3xl border-2 border-primary-light py-3 px-10 transform transition-transform duration-500 hover:scale-105">
+								Let’s do this!
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
