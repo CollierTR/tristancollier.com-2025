@@ -24,7 +24,7 @@ export default function StudentSignup() {
 						className="flex flex-col gap-4 md:gap-6 place-items-center"
 						name="Contact Form"
 						method="post"
-						action="/contact"
+						action="/student-signup"
 					>
 						<input
 							type="hidden"
