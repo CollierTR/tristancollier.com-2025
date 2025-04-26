@@ -1,40 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Collier - Custom Software</title>
+	</head>
 
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collier - Custom Software</title>
-  </head>
+	<body>
+		<form name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
+			<input type="text" name="firstName" />
+			<input type="hidden" name="isStudentForm" value="Student Form" />
+			<input type="text" name="lastName" />
+			<input type="email" name="email" />
+			<textarea name="text" id="text"></textarea>
+		</form>
 
+		<noscript>You need to enable JavaScript to run this app.</noscript>
 
-  <body>
-    <form name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="firstName" />
-      <input type="text" name="lastName" />
-      <input type="email" name="email" />
-      <textarea name="text" id="text"></textarea>
-    </form>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
 
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-
-
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W6MZB7W5Q2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-W6MZB7W5Q2');
-    </script>
-
-
-
-  </body>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-W6MZB7W5Q2"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-W6MZB7W5Q2");
+		</script>
+	</body>
 </html>
