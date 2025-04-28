@@ -8,7 +8,7 @@ export default function StudentSignup() {
 
 			<div className="w-11/12 flex justify-center mb-40 mt-32 gap-x-20 mx-auto lg:flex-row text-primary-light flex-col place-items-center lg:place-items-start gap-40">
 				<div className="flex-col flex gap-4 lg:gap-10 lg:w-5/12 w-10/12 blackOutline ">
-					<h1 className="lg:text-6xl text-primary-light text-5xl">
+					<h1 className="lg:text-6xl text-primary-light text-4xl md:text-5xl">
 						Let’s begin your learning journey!
 					</h1>
 					<p className="lg:text-2xl text-2xl text-white">

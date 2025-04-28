@@ -15,7 +15,7 @@ const Nav = () => {
 
   return (
     <div className=" h-fit text-white flex justify-end place-items-center blackOutline text-3xl m-4 absolute top-0 right-0 sm:right-6 z-[200] shadow-xl">
-      <div className={`flex ${ animation ? 'px-7 navOpen' : 'px-5 navClose'} py-1 justify-center flex-col-reverse rounded-xl sm:rounded-full pb-8 sm:pb-0 sm:flex-row place-items-end sm:place-items-center gap-8 h-fit w-fit  bg-black`} onClick={toggleNav}>
+      <div className={`flex ${ animation ? 'px-7 navOpen' : 'px-5 navClose'} py-1 justify-center flex-col rounded-xl sm:rounded-full pb-8 sm:pb-0 sm:flex-row place-items-end sm:place-items-center gap-8 h-fit w-fit  bg-black`} onClick={toggleNav}>
         {navOpen && (
           <Link to={"/"}>
             <p className="py-2 rounded-full  cursor-pointer">
@@ -30,9 +30,15 @@ const Nav = () => {
             </p>
           </Link>
         )}
-        <p
+         {navOpen && (
+          <Link to={"/learn-to-code"}>
+            <p className="py-2 rounded-full text-nowrap cursor-pointer">
+              Learn to Code
+            </p>
+          </Link>
+        )}       <p
           onClick={toggleNav}
-          className={`py-2 rounded-full text-4xl ${ navOpen ? 'text-red-800 hover:text-red-600' : 'text-white'} cursor-pointer`}
+          className={`py-2 rounded-full text-4xl ${ navOpen ? 'text-red-800 order-first md:order-last hover:text-red-600' : 'text-white'} cursor-pointer`}
         >
           {navOpen ? (
             <FontAwesomeIcon icon={faXmark} />

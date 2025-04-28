@@ -8,12 +8,12 @@ export default function LearnToCodePage() {
 			<Nav></Nav>
 
 			<div className="w-10/12 text-white text-2xl flex flex-col justify-center place-items-center gap-10">
-				<div className="flex h-screen justify-center place-items-center gap-20 2xl:gap-0 ">
-					<div className="flex flex-col gap-2 justify-start place-items-start w-3/5">
-						<h1 className="text-primary-light my-6 text-4xl sm:text-7xl blackOutline">
+				<div className="mt-20 md:my-0 flex flex-col xl:flex-row min-h-screen justify-center place-items-center gap-20 2xl:gap-0 ">
+					<div className="flex flex-col gap-2 justify-start place-items-center md:place-items-start w-full md:w-3/5">
+						<h1 className="text-primary-light my-6 text-5xl text-center sm:text-left sm:text-7xl blackOutline">
 							Learn to Code!
 						</h1>
-						<p className="2xl:w-4/5 text-pretty blackOutline">
+						<p className="2xl:w-4/5 text-center sm:text-left text-pretty blackOutline">
 							Are you ready to unlock your potential and dive into
 							the world of coding? Whether you’re just starting
 							out or looking to sharpen your skills, I’m here to
@@ -33,8 +33,8 @@ export default function LearnToCodePage() {
 						alt=""
 					/>
 				</div>
-				<div className="flex flex-col gap-4 text-center w-3/4 my-20  justify-center place-items-center mx-auto">
-					<h2 className="text-primary-light text-center my-6 text-3xl sm:text-6xl blackOutline">
+				<div className="flex flex-col gap-4 text-center w-3/4 sm:my-20  justify-center place-items-center mx-auto">
+					<h2 className="text-primary-light text-center sm:my-6 text-4xl sm:text-6xl blackOutline">
 						Become a 10x developer!
 					</h2>
 					<p className="2xl:w-4/5 text-pretty blackOutline">
@@ -64,7 +64,7 @@ export default function LearnToCodePage() {
 				/>
 				<div className="flex flex-row-reverse min:h-screen justify-center place-items-start 2xl:gap-0 ">
 					<div className="flex flex-col gap-2 justify-center place-items-center text-pretty">
-						<h1 className="text-primary-light my-6 text-4xl sm:text-7xl blackOutline">
+						<h1 className="text-primary-light my-6 md:mt-20 text-4xl sm:text-7xl blackOutline">
 							Learn to Code!
 						</h1>
 						<p className="2xl:w-4/5 text-pretty blackOutline text-center mb-6">
@@ -74,7 +74,7 @@ export default function LearnToCodePage() {
 							what you’ll master:
 						</p>
 
-						<ul className="grid grid-cols-2 gap-6 text-start  justify-evenly w-full place-items-start  blackOutline mb-6">
+						<ul className="grid grid-cols-1 lg:grid-cols-2 gap-6 text-start md:mt-12  justify-evenly w-full place-items-start  blackOutline mb-6">
 							<li className="flex flex-col justify-center w-full place-items-center text-center">
 								<strong className="text-primary text-4xl mt-8">
 									Frontend Development:
